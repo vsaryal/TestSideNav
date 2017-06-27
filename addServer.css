@@ -1,0 +1,10 @@
+.addServerContainer{
+    height: 100%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.form-control{
+    width:75%;
+    margin-bottom: 3%;
+}
