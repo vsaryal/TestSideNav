@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.container{
+  display: flex;
+  /*width: 30%;*/
+}
+.app-header {
+  height: 60px;
+  background-color: black;
+  width: 100%; }
+
+.app-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-height: 1000px;
+  height: 100%;
+}
+  .app-wrapper .app-nav {
+    width: 100px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch; }
+    .app-wrapper .app-nav .nav-item {
+      height: 60px;
+      background-color: coral;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .app-wrapper .app-nav .nav-item.active-nav {
+        background-color: red; }
+      .app-wrapper .app-nav .nav-item:hover {
+        background-color: yellow; }
+  .app-wrapper .main-content {
+    /*flex: 1;*/
+    /*width: 30%;*/
+    /*#*/
+    background-color: #4C4957;
+    border-right: medium;
+    /*height: 100%;*/
+    }
+    .app-wrapper .main-content .screen {
+      margin: 10px; }
+
+    .app-wrapper .main-content .hiddenDiv{
+      /*width: 80%;*/
+      width: 300px;
+      background-color: #30333A;
+      height: 1000px;
+    }
+    /*# sourceMappingURL=app.css.map */
+    .test{
+      width: 80%;
+      background-color: #30333A;
+
+    }
+    .app-wrapper .right-section{
+      width:100%;
+      background-color: antiquewhite;
+    }
+  .app-wrapper .right-section .sub-section{
+    height:30%;
+    background-color: #D2D5DA;
+    /*border-color: #222222;*/
+    border: solid;
+  }
+
+.containerList{
+  margin-bottom: 20%;
+}
